@@ -11,7 +11,7 @@ function ProductCard() {
         <div className="container cart-content">
             <p>PERFUME</p>
             <h1>Gabrielle Essence Eau De Parfum</h1>
-            <p>A floral solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL</p>
+            <p className="price-content">A floral solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL</p>
             <div className="flex-cart">
                 <p>$149.99</p>
                 <p>$169.99</p>
@@ -20,6 +20,7 @@ function ProductCard() {
               <img src={myCart}></img>
               <button className="button">Add to Cart</button>  
             </div>
+
         </div>
     </div>)
 }

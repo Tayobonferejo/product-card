@@ -45,10 +45,17 @@ body {
 
 .cart-content {
   background-color: whitesmoke;
+  border: 2px solid #555555;
+  padding: 1rem;
+}
+
+.price-content {
+   padding: 9px 0;
+   font-size: 18px;
 }
 
 .button-container {
-   background-color: green;
+   background-color: rgb(52, 167, 52);
    width: 70%;
    padding: 8px;
    text-align: center;
