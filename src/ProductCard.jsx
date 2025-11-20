@@ -9,11 +9,11 @@ function ProductCard() {
             <img src={myImage}></img>
         </div>
         <div className="container cart-content">
-            <p>PERFUME</p>
+            <p className="perfume">PERFUME</p>
             <h1>Gabrielle Essence Eau De Parfum</h1>
             <p className="price-content">A floral solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL</p>
-            <div className="flex-cart">
-                <p className="price">$149.99</p>
+            <div className="flex-cart cart-price">
+                <p className="price discount">$149.99</p>
                 <p className="price main-price">$169.99</p>
             </div>
             <div className="flex-cart button-container">
