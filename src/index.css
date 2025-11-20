@@ -51,8 +51,8 @@ body {
 
 .cart-content {
   background-color: whitesmoke;
-  border: 2px solid #555555;
-  padding: 1rem;
+  /* border: 2px solid #555555; */
+  padding: 1.5rem;
 }
 
 .price-content {
