@@ -51,13 +51,13 @@ body {
 
 .cart-content {
   background-color: whitesmoke;
-  /* border: 2px solid #555555; */
   padding: 1.5rem;
 }
 
 .price-content {
    padding: 9px 0;
    font-size: 18px;
+   color: rgb(99, 179, 99);
 }
 
 .button-container {
