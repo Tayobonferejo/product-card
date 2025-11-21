@@ -3,10 +3,10 @@
     import myCart from "./assets/icon-cart.svg";
 
 
-function ProductCard() {
+function ProductCard(props) {
     return(<div className="main-cart flex-cart">
         <div className="image-container container">
-            <img src={myImage}></img>
+            <img src={props.Image}></img>
         </div>
         <div className="container cart-content">
             <p className="perfume">PERFUME</p>
