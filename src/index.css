@@ -73,6 +73,10 @@ body {
    gap: 1rem;
 }
 
+.button-container:hover {
+  background-color: rgb(9, 109, 9);
+}
+
 .button {
   background-color: transparent;
   color: whitesmoke;
